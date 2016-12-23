@@ -1,6 +1,6 @@
 ---
 title: markdown 语法
-date: 2016-12-24 16:31:35
+date: 2016-12-14 16:31:35
 tags: markdown
 ---
 
@@ -44,7 +44,7 @@ tags: markdown
 
 示例：
 
-这是去往 [本人博客](http://ghosertblog.github.com) 的链接。
+<!-- more -->
 
 ### 4. 无序列表
 
