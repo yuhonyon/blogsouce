@@ -29,7 +29,7 @@ on_success:
   - git add -A
   - if "%APPVEYOR_REPO_BRANCH%"=="master" if not defined APPVEYOR_PULL_REQUEST_NUMBER (git diff --quiet --exit-code --cached || git commit -m "Update Static Site" && git push origin %TARGET_BRANCH% && appveyor AddMessage "Static Site Updated")
 
-  - ps: Add-Content "$env:USERPROFILE\.git-credentials" "https://%CODING_USER_NAME%:%CODING_WORDPASS%@git.coding.net`n"
+  - ps: Add-Content "$env:USERPROFILE\.git-credentials" "https://$($env:CODING_USER_NAME):$($env:CODING_WORDPASS)@git.coding.net`n"
   - git clone --depth 5 -q --branch=master %STATIC_SITE_REPO_CODING% %TEMP%\static-site2
   - cd %TEMP%\static-site2
   - del * /f /q
