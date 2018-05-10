@@ -1,5 +1,5 @@
 ---
-title: markdown 语法
+title: markdown 语法123
 date: 2016-12-24 16:31:35
 tags: markdown
 ---
@@ -51,12 +51,12 @@ This is an H2
 任何数量的 = 和 - 都可以有效果
 
 #### 在行首插入 1 到 6 个 # ，对应到标题 1 到 6 阶，例如：
-```html 
+```html
 # 这是 H1
 
 ## 这是 H2
 
-###### 这是 H6 
+###### 这是 H6
 ```
 
 ## 引用
@@ -64,7 +64,7 @@ This is an H2
 Markdown 也允许你偷懒只在整个段落的第一行最前面加上 >
 引用的区块内也可以使用其他的 Markdown 语法
 
-```html 
+```html
 > ## 这是一个标题。
 > This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
 consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
@@ -78,14 +78,14 @@ Markdown 支持有序列表和无序列表。
 
 无序列表使用星号、加号或是减号作为列表标记：
 
-```html 
+```html
 *   Red
 *   Green
-*   Blue 
+*   Blue
 ```
 有序列表则使用数字接着一个英文句点:
 
-```html 
+```html
 1.  Bird
 2.  McHale
 3.  Parish
@@ -93,7 +93,7 @@ Markdown 支持有序列表和无序列表。
 
 列表项目可以包含多个段落，每个项目下的段落都必须缩进 4 个空格或是 1 个制表符：
 
-```html 
+```html
 *   This is a list item with two paragraphs.
 
     This is the second paragraph in the list item. You're
@@ -113,7 +113,7 @@ sit amet, consectetuer adipiscing elit.
 或者使用反引号
 
 ## 分割线
-```html 
+```html
 	* * *
 
 	***
@@ -129,21 +129,21 @@ sit amet, consectetuer adipiscing elit.
 
 ## 链接
 Markdown中有两种方式，实现链接，分别为内联方式和引用方式。
-```html 
+```html
 内联方式：This is an [example link](http://example.com/).
 引用方式：
-I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].  
+I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].
 
-[1]: http://google.com/        "Google" 
-[2]: http://search.yahoo.com/  "Yahoo Search" 
+[1]: http://google.com/        "Google"
+[2]: http://search.yahoo.com/  "Yahoo Search"
 [3]: http://search.msn.com/    "MSN Search"
 ```
 内联方式：This is an [example link](http://example.com/).
 引用方式：
-I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].  
+I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].
 
-[1]: http://google.com/        "Google" 
-[2]: http://search.yahoo.com/  "Yahoo Search" 
+[1]: http://google.com/        "Google"
+[2]: http://search.yahoo.com/  "Yahoo Search"
 [3]: http://search.msn.com/    "MSN Search"
 
 
@@ -156,16 +156,16 @@ I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].
 ## 图片
 图片的处理方式和链接的处理方式，非常的类似。
 
-```html 
+```html
 内联方式：![alt text](https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png "Title")
 引用方式：
-![alt text][id] 
+![alt text][id]
 
 [id]: https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png "Title"
 ```
 内联方式：![alt text](https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png "Title")
 引用方式：
-![alt text][id] 
+![alt text][id]
 
 [id]: https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png "Title"
 
@@ -174,7 +174,7 @@ I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].
 
 Markdown 使用星号（*）和底线（_）作为标记强调字词的符号，被 * 或 _ 包围的字词会被转成用 <em> 标签包围，用两个 * 或 _ 包起来的话，则会被转成 <strong>，例如：
 
-```html 
+```html
 *single asterisks*
 
 _single underscores_
