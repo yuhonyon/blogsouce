@@ -4,7 +4,7 @@ date: 2016-12-24 16:31:35
 tags: markdown
 ---
 
-# 兼容HTML11
+# 兼容HTML
 ``` html
 //这是一个普通table。
 
