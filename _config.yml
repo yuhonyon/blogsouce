@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: yufangyang blog
-subtitle:
-description:
+title: yfy笔记
+subtitle: 私人笔记
+description: 私人笔记 个人使用
 author: 余方杨
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yfyld.online/
+url: http://blog.yfyld.online/
 root: /
 permalink: :title/
 permalink_defaults:
